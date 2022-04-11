@@ -1,0 +1,189 @@
+
+
+/* Fuente Inicio */
+@font-face {
+    font-family: Nanum-Header;
+    src: url(./Fuentes/Fuente-Header/NanumGothic-Bold.ttf);
+}
+
+/* FONDO */
+
+.Inicio {
+    background-image: url(./imagenes/fondo-body.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* HTML INICIO */
+
+/* COLOR HEADER Y DISTANCIAMIENTO DESDE TOP */
+
+
+
+.nav {
+    color: whitesmoke;
+    font-family: Nanum-Header;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;    
+    display: flex;
+    justify-content: space-around
+    
+}
+
+.nav:hover {
+    color: gold;
+}
+
+.navegacion-inicio {    
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+ 
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+}
+
+.imagen-link {
+    min-width: 200px;
+}
+
+.posicion-imagenes-inicio {
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ 
+}
+
+.footer {
+    flex-direction: column;
+    
+}
+
+
+/* HTML BIOGRAFIA */
+
+.navegacion-interna {
+    font-family: Nanum-Header;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+   
+}
+
+p {
+    font-family: Nanum-Header;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+h2 {
+    font-family: Nanum-Header;
+    
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 20px;    
+    display: flex;
+    
+    font-size: 20px;
+    padding: 20px;
+    
+    
+}
+
+/* MERCHANDISING */
+
+.posicion-merch {
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.titulo-merch {
+    padding-top: 5%;
+    color: white;
+    font-size: 20px;
+    font-family: Nanum-Header;
+    display: flex;
+    justify-content: space-around;
+}
+
+.parrafo-merch {
+    display: flex;
+    justify-content: space-around;
+    color: whitesmoke;
+}
+
+
+/* HTML TOUR */
+
+.titulo-tour {
+    color: whitesmoke;
+    font-family: Nanum-Header;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+
+.parrafo-tour {
+    font-family: Nanum-Header;
+    color: grey;
+    text-decoration: none;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;    
+}
+
+.pos-tickets {
+    padding-left: 20px;
+    color: goldenrod;
+    text-decoration: none;
+}
+
+
+/* HTML GALERIA */
+
+.titulo-galeria {
+    color: black;
+    background-color: rgb(37, 92, 102);    
+    font-family: Nanum-Header;
+    font-size: 40px;
+    border-radius: 20px;   
+    display: flex;
+    justify-content: center;
+    width: 400px;
+}
+
+
+.img-galeria {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+.videos {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+
+.lista-spotify {
+    width: 50%;
+    display: flex;
+    padding-left: 25%;
+    
+}
