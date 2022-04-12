@@ -6,6 +6,10 @@
     src: url(./Fuentes/Fuente-Header/NanumGothic-Bold.ttf);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -33,7 +37,11 @@ body {
     font-weight: bold;    
     display: flex;
     justify-content: space-around;
-   
+    transition: all 0.5s;   
+}
+
+.nav:hover {
+    transform: scale(1.2);
 }
 
 .nav:hover {
