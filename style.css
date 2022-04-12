@@ -6,6 +6,11 @@
     src: url(./Fuentes/Fuente-Header/NanumGothic-Bold.ttf);
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 /* FONDO */
 
 .Inicio {
@@ -20,7 +25,6 @@
 /* COLOR HEADER Y DISTANCIAMIENTO DESDE TOP */
 
 
-
 .nav {
     color: whitesmoke;
     font-family: Nanum-Header;
@@ -28,8 +32,8 @@
     font-size: 20px;
     font-weight: bold;    
     display: flex;
-    justify-content: space-around
-    
+    justify-content: space-around;
+   
 }
 
 .nav:hover {
@@ -40,6 +44,7 @@
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    list-style: none;
  
 }
 
@@ -54,8 +59,9 @@
     transform: scale(1.2);
 }
 
-.imagen-link {
-    min-width: 200px;
+.imagen-link img {
+    width: 100%;
+    height: auto;   
 }
 
 .posicion-imagenes-inicio {
@@ -63,7 +69,7 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
- 
+     
 }
 
 .footer {
@@ -106,11 +112,12 @@ h2 {
 
 /* MERCHANDISING */
 
-.posicion-merch {
-    
+.posicion-merch {    
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    width: 100%;
+    height: auto;
 }
 
 .titulo-merch {
@@ -138,16 +145,18 @@ h2 {
     display: flex;
     justify-content: center;
     padding-top: 50px;
+    transition: all linear .5s; 
 }
 
 
 .parrafo-tour {
     font-family: Nanum-Header;
-    color: grey;
+    color: whitesmoke;
     text-decoration: none;
     font-size: 15px;
     display: flex;
-    justify-content: center;    
+    justify-content: center;
+      
 }
 
 .pos-tickets {
@@ -170,12 +179,18 @@ h2 {
     width: 400px;
 }
 
-
 .img-galeria {
     display: flex;
     justify-content: space-around;
     padding: 15px;
-    flex-wrap: wrap;
+    flex-wrap: wrap;    
+}
+
+.img-galeria img {
+    width: 50%;
+    min-width: 250px;
+    height: auto;
+    
 }
 
 .videos {
