@@ -40,21 +40,19 @@ body {
     transition: all 0.5s;   
 }
 
-.nav:hover {
-    transform: scale(1.2);
-}
 
 .nav:hover {
     color: gold;
+    transform: scale(1.2);
 }
 
 .navegacion-inicio {    
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    list-style: none;
- 
+    list-style: none; 
 }
+
 
 .logo {
     display: flex;
@@ -93,8 +91,11 @@ body {
     color: whitesmoke;
     text-decoration: none;
     font-size: 20px;
-    padding: 20px;
-   
+    padding: 20px;   
+}
+
+.navegacion-interna:hover {
+    color: lightcoral
 }
 
 p {
@@ -107,7 +108,7 @@ p {
 h2 {
     font-family: Nanum-Header;
     
-    color: whitesmoke;
+    color: lightcoral;
     text-decoration: none;
     border-radius: 20px;    
     display: flex;
@@ -130,7 +131,7 @@ h2 {
 
 .titulo-merch {
     padding-top: 5%;
-    color: white;
+    color: lightcoral;
     font-size: 20px;
     font-family: Nanum-Header;
     display: flex;
